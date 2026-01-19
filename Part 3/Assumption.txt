@@ -1,0 +1,26 @@
+In this question we have to send alert on low inventory
+
+assume we have database ;
+
+
+inventory{
+i_id primary
+p_id foreign
+w_id  foreign
+quantity 
+}
+
+sales{
+s_id,
+p_id,
+sales 
+}
+
+what we need to do in this case
+
+on every sale we need to check product quantity if its get low we need to trigger a alert
+ what we have to return
+
+product info
+supplier_info 
+warehouse info

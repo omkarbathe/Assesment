@@ -1,0 +1,29 @@
+what are the problem that may trigger
+
+code logic error:
+
+1.does not validated product 
+null cases , wrong inputs and existing product
+not used proper message and error code
+does not checked float value price can be in decimal
+
+
+2. data not handled properly 
+not used error handling techniques can cause app crash
+
+
+
+business logic
+the product may exist before .the code did not check the existing product
+if product exist does not need to add it inventory just modify quantity 
+
+
+
+
+
+solution
+
+use of error handling techniques
+use of data parse during push to the database
+handling proper validation
+checking existing product and update inventoy
